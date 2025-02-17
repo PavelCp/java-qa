@@ -1,0 +1,81 @@
+Requirements:
+
+Training is considered to be 5 working days a week, with an 8-hour school day from 10 to 18.
+The date of the launch option is carried out by the input parameter. Information about the type of the report: short or full (no parameter or parameter 0 - an abbreviated view of the short report, otherwise - a full report.)
+The following is a list of student data:
+
+STUDENT: Ivanov Ivan
+
+CURRICULUM: Java Developer
+
+START_DATE: 1 June 2020 - Monday
+
+COURSE        DURATION (hrs)
+
+--------------------------------------------
+
+1. Java.                                               16
+
+2. JDBC.                                              24
+
+3. Spring.                                           16
+
+STUDENT: Sidorov Ivan
+
+CURRICULUM: AQE
+
+START_DATE: 1 June 2020 - Monday
+
+COURSE        DURATION (hrs)
+
+--------------------------------------------
+
+1. Test design.                                  10
+
+2. Page Object.                                 16
+
+3. Selenium.                                      16
+
+Output: The calculation result should be displayed in the console with the name of the student and the program being studied.
+
+Output examples:
+
+Short (Generating report date - 8 June 2020, Monday, 15:00) :
+
+Ivanov Ivan (Java Developer) - Training is not finished. 1 d 3 hours are left until the end.
+
+Sidorov Ivan (J2EE Developer) - Training completed. 3 hours have passed since the end.
+
+/* Student data */
+
+STUDENT: Ivanov Ivan
+
+CURRICULUM: Java Developer
+
+START_DATE: 1 June 2020 - Monday
+
+COURSE        DURATION (hrs)
+
+--------------------------------------------
+
+1. Java.                                               16
+
+2. JDBC.                                              24
+
+3. Spring.                                           16
+
+STUDENT: Sidorov Ivan
+
+CURRICULUM: AQE
+
+START_DATE: 1 June 2020 - Monday
+
+COURSE        DURATION (hrs)
+
+--------------------------------------------
+
+1. Test design.                                  10
+
+2. Page Object.                                 16
+
+3. Selenium.                                      16
